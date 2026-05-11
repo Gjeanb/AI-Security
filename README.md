@@ -1,5 +1,5 @@
 # AI-Security
-Trained a CNN on MNIST, attacked it with FGSM, and defended it with adversarial training.
+This project shows how deep learning models can be tricked by adversarial inputs and how adversarial training can restore robustness. A CNN was trained on the MNIST handwritten digit dataset, attacked using the Fast Gradient Sign Method (FGSM) and then hardened through adversarial training.
 
 ## Results
 | | Clean | Under Attack (ε=0.25) |
